@@ -7,10 +7,10 @@
 The goal of this project is to detect and track players, referees, and footballs in a video using YOLO, one of the best AI object detection models available. We will also train the model to improve its performance. Additionally, we will assign players to teams based on the colors of their t-shirts using Kmeans for pixel segmentation and clustering. With this information, we can measure a team's ball acquisition percentage in a match. We will also use optical flow to measure camera movement between frames, enabling us to accurately measure a player's movement. This project covers various concepts and addresses real-world problems, making it suitable for both beginners and experienced machine learning engineers.
 
 # Trained Models
-Trained Yolo v5
+- [Trained Yolo v5](https://drive.google.com/file/d/17CuTgjFjfJ2wYrCIAvnDxRt2LsDIb1PD/view?usp=drive_link)
 
 # Sample video
-Sample input video
+- [Sample input video](https://drive.google.com/file/d/1hyw5HtirKnBurVeDY_0MhkPLQbjWLnHk/view?usp=drive_link)
 
 # Requirements
 To run this project, you need to have the following requirements installed:
