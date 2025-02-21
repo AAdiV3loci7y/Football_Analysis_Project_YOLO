@@ -1,9 +1,7 @@
 # ⚽ Football Analysis with YOLO
 
-## 📌 Input vs. Output
-
-| **Output Result (Video)** |
- [📌 Output Video](https://drive.google.com/file/d/1q33gTcND2ymhqlDxZO0rXwmJjbF2Hcnv/view?usp=drive_link) |
+## 📌 End Result
+[📌 Output Video](https://drive.google.com/file/d/1q33gTcND2ymhqlDxZO0rXwmJjbF2Hcnv/view?usp=drive_link) |
 
 ## 📌 Introduction
 This project leverages **YOLO (You Only Look Once)**, a state-of-the-art object detection model, to **detect and track players, referees, and footballs** in match footage. By combining **machine learning techniques** with **computer vision**, we can analyze team performance, player movements, and game strategies effectively.
