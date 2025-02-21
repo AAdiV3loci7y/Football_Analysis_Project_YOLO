@@ -1,5 +1,6 @@
 # ⚽ Football Analysis with YOLO
-<img width="598" alt="image" src="https://github.com/user-attachments/assets/661c8c1a-db59-441c-bdc6-e7ee34095f87" />
+![pixelcut-export](https://github.com/user-attachments/assets/945b900a-fcc2-4d59-b915-4952a6b85313)
+
 
 ## 📌 End Result
 [📌 Output Video](https://drive.google.com/file/d/1q33gTcND2ymhqlDxZO0rXwmJjbF2Hcnv/view?usp=drive_link) |
