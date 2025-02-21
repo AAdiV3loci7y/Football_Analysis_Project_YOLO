@@ -1,24 +1,64 @@
-# Football_Analysis_Project_YOLO
+# ⚽ Football Analysis with YOLO
 
-<img width="598" alt="image" src="https://github.com/user-attachments/assets/661c8c1a-db59-441c-bdc6-e7ee34095f87" />
+![Football Analysis](https://github.com/user-attachments/assets/57H5Am4EYrWrmkM3KgbftN)
 
-# Introduction
+## 📌 Introduction
+This project leverages **YOLO (You Only Look Once)**, a state-of-the-art object detection model, to **detect and track players, referees, and footballs** in match footage. By combining **machine learning techniques** with **computer vision**, we can analyze team performance, player movements, and game strategies effectively.
 
-The goal of this project is to detect and track players, referees, and footballs in a video using YOLO, one of the best AI object detection models available. We will also train the model to improve its performance. Additionally, we will assign players to teams based on the colors of their t-shirts using Kmeans for pixel segmentation and clustering. With this information, we can measure a team's ball acquisition percentage in a match. We will also use optical flow to measure camera movement between frames, enabling us to accurately measure a player's movement. This project covers various concepts and addresses real-world problems, making it suitable for both beginners and experienced machine learning engineers.
+### 🔹 Key Features
+- **Object Detection & Tracking**: Detects players, referees, and the ball using YOLO.
+- **Team Classification**: Uses **KMeans clustering** to assign players to teams based on t-shirt colors.
+- **Ball Possession Analysis**: Determines the percentage of time each team has the ball.
+- **Camera Movement Estimation**: Uses **optical flow** to adjust for frame transitions and enhance movement tracking.
+- **Player Speed & Distance Calculation**: Accurately measures player movements using perspective transformation.
 
-# Trained Models
-- [Trained Yolo v5](https://drive.google.com/file/d/17CuTgjFjfJ2wYrCIAvnDxRt2LsDIb1PD/view?usp=drive_link)
+This project is suitable for both **beginners** looking to explore AI-driven sports analytics and **experienced engineers** aiming to refine object detection models.
 
-# Sample video
-- [Sample input video](https://drive.google.com/file/d/1hyw5HtirKnBurVeDY_0MhkPLQbjWLnHk/view?usp=drive_link)
+---
 
-# Requirements
-To run this project, you need to have the following requirements installed:
+## 🚀 Trained Models
+- [📌 Download Trained YOLO v5 Model](https://drive.google.com/file/d/17CuTgjFjfJ2wYrCIAvnDxRt2LsDIb1PD/view?usp=drive_link)
 
-Python 3.x
-ultralytics
-supervision
-OpenCV
-NumPy
-Matplotlib
-Panda
+## 🎥 Sample Video
+- [📌 Sample Input Video](https://drive.google.com/file/d/1hyw5HtirKnBurVeDY_0MhkPLQbjWLnHk/view?usp=drive_link)
+
+---
+
+## 🔧 Installation & Requirements
+To set up and run this project, ensure you have the following dependencies installed:
+
+### **1️⃣ Prerequisites**
+- Python 3.x
+- **Libraries:**
+  ```bash
+  pip install ultralytics supervision opencv-python numpy matplotlib pandas
+  ```
+
+### **2️⃣ Clone the Repository**
+```bash
+git clone https://github.com/YourUsername/Football_Analysis_Project_YOLO.git
+cd Football_Analysis_Project_YOLO
+```
+
+### **3️⃣ Run the Model**
+```bash
+python main.py
+```
+
+---
+
+## 📊 Results & Applications
+- **Performance Analysis:** Helps coaches and analysts track player movements and ball possession.
+- **Scouting & Recruitment:** Identifies player strengths and weaknesses using movement and possession stats.
+- **Broadcast Enhancement:** Provides live tracking data for sports commentators and analysts.
+
+---
+
+## 🤝 Support
+If you found this project useful, **consider giving it a ⭐ on GitHub!**
+
+---
+
+### **📜 License**
+This project is licensed under the **MIT License**. See `LICENSE` for details.
+
